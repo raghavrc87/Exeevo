@@ -1,0 +1,20 @@
+{
+  "flights": [
+    {
+      "from": "Delhi",
+      "to": "Chennai",
+      "dpDt": "Jun 27 2024"
+      
+    },
+    {
+      "from": "Pune",
+      "to": "Rajkot",
+      "dpDt": "Jun 28 2024"
+    },
+    {
+      "from": "Mumbai",
+      "to": "Hyderabad",
+      "dpDt": "Jun 29 2024"
+    }
+  ]
+}

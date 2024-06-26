@@ -12,7 +12,7 @@ public class datasupply {
     public String[] get_flights() throws Exception {
 
         JSONParser jparser = new JSONParser();
-        FileReader reader = new FileReader("/Users/raghavendrakulkarni/git/repository/Test2/data.json");
+        FileReader reader = new FileReader("./data.json");
         JSONObject jsonobj = (JSONObject)jparser.parse(reader);
         JSONArray jarray = (JSONArray)jsonobj.get("flights");
         String myflight[]=new String[jarray.size()];
